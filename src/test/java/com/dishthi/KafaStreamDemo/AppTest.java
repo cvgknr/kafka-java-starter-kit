@@ -1,6 +1,8 @@
-package com.invendis.KafaStreamDemo;
+package com.dishthi.KafaStreamDemo;
 
 import org.junit.Test;
+
+import com.dishthi.KafaStreamDemo.App;
 
 public class AppTest {
 

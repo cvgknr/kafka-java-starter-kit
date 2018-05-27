@@ -1,4 +1,4 @@
-package com.invendis.KafaStreamDemo;
+package com.dishthi.KafaStreamDemo;
 
 import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
@@ -46,7 +46,7 @@ public class App {
 		final CountDownLatch latch = new CountDownLatch(1);
 
 		// attach shutdown handler to catch control-c
-		Runtime.getRuntime().addShutdownHook(new Thread("streams-invendis-shutdown-hook") {
+		Runtime.getRuntime().addShutdownHook(new Thread("streams-dishthi-shutdown-hook") {
 			@Override
 			public void run() {
 				streams.close();
